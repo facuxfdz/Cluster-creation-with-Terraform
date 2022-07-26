@@ -16,7 +16,7 @@ provider "digitalocean" {
 resource "digitalocean_kubernetes_cluster" "facuxfdz" {
   name = "facuxfdz-cluster"
   region = "nyc1"
-  version = "1.22.11-do.0"
+  version = "1.23.9-do.0"
 
   node_pool {
     name = "facuxfdz-worker-node"
