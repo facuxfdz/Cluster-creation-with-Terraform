@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: hi-py
-        image: facuxfdz/hi-python:latest
+        image: facuxfdz/hi-python:latest #TODO: This pull the real latest version of the app? 
